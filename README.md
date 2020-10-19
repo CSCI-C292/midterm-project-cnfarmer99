@@ -23,14 +23,17 @@ Assets:
 
 Goals:
     10/21:
-        -Create 2 menu scenes and 3 level scenes
-        -Add necessary assets to levels
-        -Make 2 menus work as expected
+        -Create 2 menu scenes and 3 level scenes (done)
+        -Add necessary assets to levels (done)
+        -Make 2 menus work as expected (have 3)
         -Add necessary outlines on levels:
             -sprites
             -text
             -player
             -DOESN'T NEED TO WORK, JUST CONTAIN NEEDED OBJS
+
+        TODO:
+            -Want buttons, text, etc to grow/shrink with user screen
         
     10/28:
         -Levels 1 and 2 working as expected
