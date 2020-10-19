@@ -34,6 +34,7 @@ Goals:
 
         TODO:
             -Want buttons, text, etc to grow/shrink with user screen
+            -get main screen buttons to shwo highlighted color
         
     10/28:
         -Levels 1 and 2 working as expected
