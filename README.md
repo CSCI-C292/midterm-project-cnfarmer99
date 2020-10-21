@@ -22,6 +22,7 @@ Assets:
 
 
 Goals:
+
     10/21:
         -Create 2 menu scenes and 3 level scenes (done)
         -Add necessary assets to levels (done)
