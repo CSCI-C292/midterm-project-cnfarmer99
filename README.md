@@ -26,15 +26,6 @@ Goals:
         -Create 2 menu scenes and 3 level scenes (done)
         -Add necessary assets to levels (done)
         -Make 2 menus work as expected (have 3)
-        -Add necessary outlines on levels:
-            -sprites
-            -text
-            -player
-            -DOESN'T NEED TO WORK, JUST CONTAIN NEEDED OBJS
-
-        TODO:
-            -Want buttons, text, etc to grow/shrink with user screen
-            -get main screen buttons to shwo highlighted color
         
     10/28:
         -Levels 1 and 2 working as expected
@@ -46,6 +37,7 @@ Goals:
                 -Player moves esc key into needed area to move to next level and doesn't work prior
                 -WASD skewed and have to be moved in order to "fix" controls
                 -Placement of WASD sprites is off, player must move them in order to get esc key to needed area
+        -Want buttons, text, etc to grow/shrink with user screen
 
     11/4:
         -Level 3 working fully:
