@@ -16,6 +16,8 @@ Assets:
         Thank you for using Gerald's keys.
         (https://gerald-burke.itch.io/geralds-keys)
 
+        I changed them a bit just to make them a little easier to use in the scene and also used a blank key to make both the "goal zone" and the player sprites. 
+
 
     Background:
         Created by me in Krita.
@@ -41,10 +43,15 @@ Goals:
         -Want buttons, text, etc to grow/shrink with user screen
 
     11/4:
-        -Level 3 working fully:
-            -Player moves esc key into needed area to move to next level and doesn't work prior
-            -WASD keys inverted so controls are inverted
-                -WASD aren't moveable this level
+        -Level 1 and 2 working fully:
+            -Need to add player movement
+            -Need to make esc key moveable
+            -Need to make esc only work when in goal zone
+            -Esc key needs to load the next scene in queue
+            -Make scene queue
+            -Make Movement keys collidable but not moveable so you can't go over them
+            -Need to fix issue of text on the screen when changing screen sizes
+
         -If there's time work on stretched goals:
             -Player can't move to next level even if esc key in needed area unless all tasks completed
                 -Only necessary on Level 2 for getting all WASD keys at least in highlighted spots or in correct spots
@@ -53,6 +60,4 @@ Goals:
                     -Level 1:
                         -move a piece of text and collect a coin hidden underneath
                     -Level 2:
-                        -move piece of text and auto complete level and auto start Level 3
-                    -Level 3:
-                        -bump a piece of text and a little animation happens in corner of screen? Not sure for this level yet.
+                        -move piece of text and auto complete level and get play again menu
