@@ -25,4 +25,10 @@ public class MenuSystem : MonoBehaviour
     {
         SceneManager.LoadScene("Menu");
     }
+
+    public void escapePressed()
+    {
+        if(Input.GetKeyDown("Next Level")) 
+            SceneManager.LoadScene("Level Two");
+    }
 }
