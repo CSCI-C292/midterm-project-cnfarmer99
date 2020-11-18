@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\MenuSystem.cs" />
+     <Compile Include="Assets\Movement.cs" />
      <None Include="Assets\Gerald&apos;s Keys\Readme.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
