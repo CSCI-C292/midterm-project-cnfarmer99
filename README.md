@@ -25,13 +25,20 @@ Assets:
 
 Goals:
 
-    11/18:
-        Player movement on all levels
+    11/18:  COMPLETE
+        Make esc key functional- finished
         Create collision objects on esc sprite- finished
+        
+        Extra:
+            I made collision objects on the key sprites so the player can't move over them.
+            I added rigid bodies to player for the physics, but couldn't figure out player movement.
+            I also added collision body to player and made esc sprite and player and goal triggers.
+            Made a disclaimer about going off screen on menu because honestly don't feel like messing with making a boarder at this current point.
+            I turned off gravity so that way when you get to the second level the sprite doesn't fall off screen like it was. 
 
     12/2:
         Make esc sprite moveable; when in correct area it activates
-        Make esc key functional
+        Player movement on all levels
     
     12/9:
         Text consistency

@@ -19,14 +19,17 @@ EditorBuildSettings:
     guid: d639a37134b350b4c918fc28e1e1d618
   - enabled: 1
     path: Assets/Scenes/LevelTwo.unity
-    guid: 0b678ba966c7b614da33aa1397270aee
-  - enabled: 1
-    path: Assets/Scenes/LevelThree.unity
-    guid: 32912ad46cb698041bba24b7758db91d
-  - enabled: 0
-    path: Assets/Scenes/End Menu.unity
-    guid: 56f21fdae5947c84fb374d433473b3f8
+    guid: 54f4dc080a4b2af4d8302dde839c7124
   - enabled: 1
     path: Assets/Scenes/PlayAgain.unity
     guid: 45e1da9c648df894ea0ad4dc84bf3494
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
