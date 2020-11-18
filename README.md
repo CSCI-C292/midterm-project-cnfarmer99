@@ -27,7 +27,7 @@ Goals:
 
     11/18:
         Player movement on all levels
-        Create collision objects on esc sprite
+        Create collision objects on esc sprite- finished
 
     12/2:
         Make esc sprite moveable; when in correct area it activates
