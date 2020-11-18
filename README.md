@@ -25,39 +25,14 @@ Assets:
 
 Goals:
 
-    10/21:
-        -Create 2 menu scenes and 3 level scenes (done)
-        -Add necessary assets to levels (done)
-        -Make 2 menus work as expected (have 3)
-        
-    10/28:
-        -Levels 1 and 2 working as expected
-        -Need to figure out animated sprites
-            -Level One:
-                -Player moves esc key into needed area to move to next level and doesn't work prior
-                -WASD aren't moveable this level
-            -Level Two:
-                -Player moves esc key into needed area to move to next level and doesn't work prior
-                -WASD skewed and have to be moved in order to "fix" controls
-                -Placement of WASD sprites is off, player must move them in order to get esc key to needed area
-        -Want buttons, text, etc to grow/shrink with user screen
+    11/18:
+        Player movement on all levels
+        Create collision objects on esc sprite
 
-    11/4:
-        -Level 1 and 2 working fully:
-            -Need to add player movement
-            -Need to make esc key moveable
-            -Need to make esc only work when in goal zone
-            -Esc key needs to load the next scene in queue
-            -Make scene queue
-            -Make Movement keys collidable but not moveable so you can't go over them
-            -Need to fix issue of text on the screen when changing screen sizes
-
-        -If there's time work on stretched goals:
-            -Player can't move to next level even if esc key in needed area unless all tasks completed
-                -Only necessary on Level 2 for getting all WASD keys at least in highlighted spots or in correct spots
-            -Add hidden interactable objs in each level
-                -different in every level
-                    -Level 1:
-                        -move a piece of text and collect a coin hidden underneath
-                    -Level 2:
-                        -move piece of text and auto complete level and get play again menu
+    12/2:
+        Make esc sprite moveable; when in correct area it activates
+        Make esc key functional
+    
+    12/9:
+        Text consistency
+        Add another level if time
