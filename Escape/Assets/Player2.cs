@@ -9,7 +9,7 @@ public class Player2 : MonoBehaviour
     void Update()
     {
         Vector3 movement = new Vector3(0, 0, 0);
-        //movement
+
         if(Input.GetButtonDown("up2"))
         {
             movement.y = _moveSpeed * 1f;
@@ -31,10 +31,5 @@ public class Player2 : MonoBehaviour
         }
 
         gameObject.transform.position = gameObject.transform.position + movement;
-    }
-
-    void OnCollisionEnter2D(Collision2D coll)
-    {
-        Debug.Log("collided");
     }
 }

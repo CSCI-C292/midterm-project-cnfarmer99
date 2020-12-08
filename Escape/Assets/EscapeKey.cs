@@ -25,10 +25,8 @@ public class EscapeKey : MonoBehaviour
 
         if(currentPosition.x <= goal.x + buffer && currentPosition.x >= goal.x - buffer)
         {
-            Debug.Log("Is in x param");
             if(currentPosition.y <= goal.y + buffer && currentPosition.y >= goal.y - buffer)
             {
-                Debug.Log("Is in y param");
                 canEscape = true;
             }
         }
@@ -37,7 +35,5 @@ public class EscapeKey : MonoBehaviour
         {
             SceneManager.LoadScene("LevelTwo");
         }
-
-    
     }
 }
