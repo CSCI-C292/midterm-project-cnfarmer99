@@ -22,6 +22,9 @@ Assets:
     Background:
         Created by me in Krita.
 
+    Text:
+        I used a textpackage from a project for another class.
+
 
 Goals:
 
@@ -36,10 +39,7 @@ Goals:
             Made a disclaimer about going off screen on menu because honestly don't feel like messing with making a boarder at this current point.
             I turned off gravity so that way when you get to the second level the sprite doesn't fall off screen like it was. 
 
-    12/2:
+    12/2 - 12/9: COMPLETE
         Make esc sprite moveable; when in correct area it activates
         Player movement on all levels
-    
-    12/9:
-        Text consistency
-        Add another level if time
+        Fix Text for all scenes
