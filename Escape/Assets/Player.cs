@@ -4,14 +4,37 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    float _moveSpeed = 3f;
+    float _moveSpeed = .3f;
 
-    void Movement()
+    void Update()
     {
-        Vector3 sidewaysMovementVector =  transform.right * Input.GetAxis("up1");
-        Vector3 forwardAndBackwardMovementVector = transform.forward * Input.GetAxis("down1");
-        Vector3 movementVector = sidewaysMovementVector + forwardAndBackwardMovementVector;
-        
-        GetComponent<CharacterController>().Move(movementVector * _moveSpeed * Time.deltaTime);
+        Vector3 movement = new Vector3(0, 0, 0);
+        //movement
+        if(Input.GetButtonDown("up1"))
+        {
+            movement.y = _moveSpeed * 1f;
+        }
+
+        if(Input.GetButtonDown("down1"))
+        {
+            movement.y = _moveSpeed * -1f;
+        }
+
+        if(Input.GetButtonDown("left1"))
+        {
+            movement.x = _moveSpeed * -1f;
+        }
+
+        if(Input.GetButtonDown("right1"))
+        {
+            movement.x = _moveSpeed * 1f;
+        }
+
+        gameObject.transform.position = gameObject.transform.position + movement;
+    }
+
+    void OnCollisionEnter2D(Collision2D coll)
+    {
+        Debug.Log("collided");
     }
 }

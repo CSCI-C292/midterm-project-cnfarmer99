@@ -26,23 +26,5 @@ public class MenuSystem : MonoBehaviour
         SceneManager.LoadScene("Menu");
     }
 
-    public void Update()
-    {
-        if(SceneManager.GetActiveScene().name == "LevelOne")
-        {
-            if(Input.GetKeyDown(KeyCode.Escape)) 
-            {
-                Debug.Log("pressed");
-                SceneManager.LoadScene("LevelTwo");
-            }
-        }
-        if(SceneManager.GetActiveScene().name == "LevelTwo")
-        {
-            if(Input.GetKeyDown(KeyCode.Escape)) 
-            {
-                Debug.Log("pressed");
-                SceneManager.LoadScene("PlayAgain");
-            }
-        }
-    }
+    
 }

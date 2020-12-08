@@ -38,6 +38,9 @@
   <ItemGroup>
      <Compile Include="Assets\Player.cs" />
      <Compile Include="Assets\MenuSystem.cs" />
+     <Compile Include="Assets\EscapeKey.cs" />
+     <Compile Include="Assets\Player2.cs" />
+     <Compile Include="Assets\EscapeKey2.cs" />
      <None Include="Assets\Gerald&apos;s Keys\Readme.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
